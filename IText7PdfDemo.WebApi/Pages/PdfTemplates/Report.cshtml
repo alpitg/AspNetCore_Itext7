@@ -1,0 +1,29 @@
+@model IText7PdfDemo.WebApi.Models.EmployeeDetails
+
+<html>
+	<head>
+    	<title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+		<style>
+			body { font-family: 'Roboto', sans-serif;}
+		</style>
+    </head>
+    <body>
+        
+        <div id="content">
+            <tr>
+                <td>
+                    Id: @Model.Id
+                </td>
+                <td>
+                    Name: @Model.EmployeeName
+                </td>
+                <td>
+                    Address: @Model.Address
+                </td>
+            </tr>
+        </div>
+
+    </body>
+</html>
